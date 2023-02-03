@@ -16,6 +16,7 @@
 		689D5F27298D35A0009A9DAB /* LessonsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D5F26298D35A0009A9DAB /* LessonsError.swift */; };
 		689D5F29298D35E5009A9DAB /* VideoDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D5F28298D35E5009A9DAB /* VideoDescriptionView.swift */; };
 		689D5F2B298D35EC009A9DAB /* VideoDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D5F2A298D35EC009A9DAB /* VideoDescriptionViewModel.swift */; };
+		689D5F2F298D5C98009A9DAB /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689D5F2E298D5C98009A9DAB /* Parsing.swift */; };
 		68F05F52298C869700FEDAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F05F51298C869700FEDAFD /* AppDelegate.swift */; };
 		68F05F54298C869700FEDAFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F05F53298C869700FEDAFD /* SceneDelegate.swift */; };
 		68F05F5B298C869800FEDAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F05F5A298C869800FEDAFD /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		689D5F26298D35A0009A9DAB /* LessonsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsError.swift; sourceTree = "<group>"; };
 		689D5F28298D35E5009A9DAB /* VideoDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDescriptionView.swift; sourceTree = "<group>"; };
 		689D5F2A298D35EC009A9DAB /* VideoDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDescriptionViewModel.swift; sourceTree = "<group>"; };
+		689D5F2E298D5C98009A9DAB /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
 		68F05F4E298C869700FEDAFD /* iPhonePhotographySchoolTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhonePhotographySchoolTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F05F51298C869700FEDAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68F05F53298C869700FEDAFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,8 +75,17 @@
 		689D5F2C298D35FF009A9DAB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				689D5F2D298D5C75009A9DAB /* Parsing */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		689D5F2D298D5C75009A9DAB /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				689D5F2E298D5C98009A9DAB /* Parsing.swift */,
+			);
+			path = Parsing;
 			sourceTree = "<group>";
 		};
 		68F05F45298C869700FEDAFD = {
@@ -210,6 +221,7 @@
 				68F05F54298C869700FEDAFD /* SceneDelegate.swift in Sources */,
 				689D5F27298D35A0009A9DAB /* LessonsError.swift in Sources */,
 				689D5F29298D35E5009A9DAB /* VideoDescriptionView.swift in Sources */,
+				689D5F2F298D5C98009A9DAB /* Parsing.swift in Sources */,
 				689D5F1E298D3279009A9DAB /* VideoRow.swift in Sources */,
 				689D5F20298D3284009A9DAB /* VideoRowViewModel.swift in Sources */,
 				689D5F1C298D3251009A9DAB /* VideosListViewModel.swift in Sources */,

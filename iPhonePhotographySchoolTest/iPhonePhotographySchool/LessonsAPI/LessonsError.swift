@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+enum LessonsError: Error {
+    case parsing(description: String)
+    case network(description: String)
+}
