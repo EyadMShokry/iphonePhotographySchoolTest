@@ -8,18 +8,18 @@
 import Foundation
 
 struct LessonsResponse: Codable {
-    let list: [LessonItem]
+    let lessons: [LessonItem]
     
     struct LessonItem: Codable {
         let id: Int
-        let title: String
+        let name: String
         let description: String
         let thumbnail: String
         let video_url: String
         
         enum CodingKeys: String, CodingKey {
             case id
-            case title
+            case name
             case description
             case thumbnail
             case video_url

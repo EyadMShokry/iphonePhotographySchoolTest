@@ -107,6 +107,7 @@
 		68F05F50298C869700FEDAFD /* iPhonePhotographySchoolTest */ = {
 			isa = PBXGroup;
 			children = (
+				68F05F5F298C869800FEDAFD /* Info.plist */,
 				689D5F2C298D35FF009A9DAB /* Utilities */,
 				68F05F65298C873000FEDAFD /* Supporting Files */,
 				68F05F66298D2F5700FEDAFD /* iPhonePhotographySchool */,
@@ -121,7 +122,6 @@
 				68F05F53298C869700FEDAFD /* SceneDelegate.swift */,
 				68F05F5A298C869800FEDAFD /* Assets.xcassets */,
 				68F05F5C298C869800FEDAFD /* LaunchScreen.storyboard */,
-				68F05F5F298C869800FEDAFD /* Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
